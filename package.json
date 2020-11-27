@@ -1,0 +1,21 @@
+{
+  "name": "labchat-server",
+  "version": "1.0.0",
+  "description": "Labchat's API",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard --fix src",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Les-Laboratoires-JS/labchat-server.git"
+  },
+  "author": "Les Laboratoires JS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Les-Laboratoires-JS/labchat-server/issues"
+  },
+  "homepage": "https://github.com/Les-Laboratoires-JS/labchat-server#readme"
+}
