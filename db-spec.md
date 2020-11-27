@@ -34,6 +34,7 @@ Message sent in channel (real markdown allowed)
 
 A grid
 
+- id *Primary<Integer>*
 - message *ref: message*
 - rows *Integer default: 1*
 - cols *Integer default: 1*
@@ -44,6 +45,7 @@ A grid
 
 A component to place on embed grid
 
+- embed *ref: embed.id*
 - content *String or null* (big) # URL for image, gif or video, text for content
 - rows *Integer default: 1*
 - cols *Integer default: 1*
