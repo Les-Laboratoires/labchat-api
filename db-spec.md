@@ -2,7 +2,7 @@
 
 ## Sizings
 
-- giant: **2048**
+- fat: **2048**
 - big: **1024**
 - medium: **64**
 - little: **16**
