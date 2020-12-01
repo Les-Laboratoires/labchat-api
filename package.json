@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "standard --fix src",
+    "lint": "ts-standard src/*",
+    "fix": "ts-standard 'src/**/*' 'src/*' --fix",
+    "prettier": "prettier --write src",
     "build": "tsc"
   },
   "repository": {
@@ -17,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/Les-Laboratoires-JS/labchat-server/issues"
   },
-  "homepage": "https://github.com/Les-Laboratoires-JS/labchat-server#readme"
+  "homepage": "https://github.com/Les-Laboratoires-JS/labchat-server#readme",
+  "dependencies": {
+    "@prisma/client": "^2.12.1",
+    "apollo-server": "^2.19.0",
+    "deepmerge": "^4.2.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "prisma-cli": "^1.0.9",
+    "ts-standard": "^9.0.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^4.1.2"
+  }
 }
