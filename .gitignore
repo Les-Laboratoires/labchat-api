@@ -1,5 +1,11 @@
-node_modules
+# builds
 dist
 
+# package managers
+node_modules
 package-lock.json
 yarn.lock
+
+# editors
+.vscode
+.idea
