@@ -1,5 +1,3 @@
-enum Subscribtions {
-
-}
+enum Subscribtions {}
 
 export default Subscribtions
