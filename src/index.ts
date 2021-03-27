@@ -5,7 +5,7 @@ import { PrismaClient } from '@prisma/client'
 import {
   typeDef as Author,
   resolvers as authorResolvers
-} from './resolvers/book'
+} from './graphql/resolvers/book'
 
 const typeDefs = [Author]
 const resolvers: IResolvers = merge([{}, authorResolvers]) as IResolvers

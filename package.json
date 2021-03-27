@@ -22,7 +22,9 @@
   "homepage": "https://github.com/Les-Laboratoires-JS/labchat-server#readme",
   "dependencies": {
     "@prisma/client": "^2.12.1",
+    "@types/node": "^14.14.36",
     "apollo-server": "^2.19.0",
+    "arangojs": "^7.3.0",
     "deepmerge": "^4.2.2"
   },
   "devDependencies": {
