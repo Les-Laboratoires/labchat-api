@@ -3,8 +3,7 @@ import { Identifier, MinimalData } from "./general";
 export interface UserInterface extends MinimalData {
   username: string
   password: string
-  id: Identifier
-  createdAt: string
+  avatar: string
 }
 
 export type UserDatabaseCreate = Omit<UserInterface, "id" | "createdAt">
